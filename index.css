@@ -1,0 +1,294 @@
+/*header part*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-wrapper{
+    background-color: rgb(123, 107, 107);
+    padding: 0px 10%;
+    font-size: 0.75em;
+    font-weight: 200;
+    padding-bottom: 15px;
+}
+    .nav{
+        justify-content: center;
+        text-align: center;
+     
+        }
+    
+    .header-wrapper .nav-link{
+        display: flex;
+        justify-content: space-between;
+        -webkit-box-pack: justify;
+        list-style: none;
+        width: 90%;
+        position: fixed;
+        
+        
+         }
+         .header-wrapper .nav .nav-link li a{
+            text-decoration: none;
+            color: white;
+         }
+         /*header end*/
+         
+         /*section start*/
+         
+#qwe{
+
+    text-align: center;
+    color: white;
+}
+.iphone2{
+    background: url("./iphon16pro.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+
+}
+.iphone2 h1{
+    font-size: 50px;
+    }
+.iphone .iphone-wrapper{
+    padding: 10px;
+}
+.Leanrn-More{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+ .Buy{
+    background-color: black;
+    color: blue;
+    border-radius: 20px; 
+    border: solid;
+    padding:10px;
+    margin: 5px;
+    
+
+ }
+ .Buy:hover{
+background-color: beige;
+cursor: pointer;
+    transition: 0.35s;
+ }
+/*section 2*/
+.iphone{
+background: url("./iphone16.jpg");
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+background-position: center;
+padding: 50px;
+margin-top: 10px;
+
+}
+.iphone h1{
+    font-size: 50px;
+    }
+.iphone .iphone-wrapper{
+    padding: 10px;
+}
+#qwe1{
+
+    text-align: center;
+    color: white;
+}
+
+.iphone3{
+    background: url("./watch_hero.jpg");
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+background-position: center;
+padding: 50px;
+margin-top: 10px;
+
+}
+.iphone3 h1{
+    font-size: 50px;
+    }
+.iphone3 .iphone-wrapper{
+    padding: 10px;
+}
+#qwe2{
+
+    text-align: center;
+    color:black;
+}
+@media(max-width:540px){
+    .common{
+       
+        flex-direction: column;
+    }
+    .common1{
+        flex-direction: column;
+    }
+    .common2{
+        flex-direction: column;
+    }
+    .responsive-image{
+    width: 100%;
+    }
+}
+.common{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+#qwe3{
+    background: url("./iphone16.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin-top: 10px;
+    color: white;
+    }
+    #qwe4{
+ background: url("./watch_hero.jpg");
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+background-position: center;
+padding: 50px;
+margin-top: 10px;
+
+    }
+    #qwe3 h1{
+        font-size: 50px;
+        }
+.common1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.common1 img{
+    width: 200px;
+}
+#qwe7 {
+    background: url("./promo_iphone_tradein__bugw15ka691e_large_2x\ \(1\).jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin-top: 10px;
+    color: black;
+
+}
+#qwe5{
+background: url("./promo_apple_card__5cm7draujpey_large_2x\ \(3\).jpg");
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+background-position: center;
+padding: 50px;
+margin-top: 10px;
+}
+.common2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+#qwe9{
+    background: url("./promo_apple_watch_unity__casvx9ysh1le_small_2x.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin-top: 10px;
+    color: white;
+}
+.common2 #qwe9 {
+    padding-bottom: 35%;
+ 
+}
+
+#qwe10{
+ background: url("./hero_macbook_air_m3__cp4t7pn8zqaa_small_2x.jpg");
+background-repeat: no-repeat;
+height: 100vh;
+width: 100vh;
+margin-bottom: 20px;
+background-size: cover;
+background-position: center;
+padding: 50px;
+margin-top: 10px;
+
+}
+.common2 #qwe10 h1{
+    font-size: 60px;
+    font-weight: 700;
+
+
+}
+.common2 #qwe10 {
+    padding-bottom: 35%;
+}
+#Leanrn-More{
+  
+    background-color: blue;
+}
+#Leanrn-More:hover a{
+      background-color: rgb(42, 43, 45);
+}   
+#qwe10 .iphone-wrapper{
+    font-size: 30px;
+    font-weight: 30px;
+}
+.footer-column{
+    display: flex;
+
+}
+
+.column{
+
+        text-align: cente;
+        justify-content: cente;
+        padding-top: 20px;
+        padding-right: 20px;
+       
+    
+    }
+    .footer-column li{
+        list-style: none;
+       
+    }
+    .footer-column li a{
+        text-decoration: none;
+        color: black;
+    }
+    .footer-column  a :hover{
+      background-color: blueviolet;
+    }
+    h3{
+        padding-left: 0px;
+    }
+    p{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+         margin: 30px 0; 
+    }
+    .footer-bottom a{
+        color: black;
+        text-decoration: none;
+    }
+    footer-bottom a:hover{
+        background-color: chartreuse;
+    }
